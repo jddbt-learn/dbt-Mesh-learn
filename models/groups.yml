@@ -1,0 +1,14 @@
+version: 2
+
+groups:
+    - name: finance
+      owner:
+          name: JD
+          email: jd@email.com
+          slack: jd-slack
+          github: jd-dbt
+    - name: product
+      owner:
+          name: DJ
+          email: dj@email.com
+          github: dbt-jd

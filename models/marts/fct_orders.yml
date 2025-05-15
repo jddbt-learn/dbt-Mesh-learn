@@ -3,6 +3,8 @@ version: 2
 models:
   - name: fct_orders
     latest_version: 1
+    group: finance
+    access: public
     config:
       contract:
         enforced: true
@@ -44,6 +46,7 @@ models:
         config:
           alias: fct_orders
       - v: 2
+        access: public
         columns:
           - name: order_amount
             data_type: number
