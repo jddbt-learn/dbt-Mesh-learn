@@ -3,6 +3,7 @@ version: 2
 models:
   - name: fct_orders
     latest_version: 1
+    description: normal orders
     group: finance
     access: public
     config:
