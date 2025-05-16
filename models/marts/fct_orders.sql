@@ -11,6 +11,7 @@ final as (
         tax_paid,
         ordered_at,
         customer_name,
+        --Add comment for pull request build
         location_name,
         tax_rate,
         location_opened_at,

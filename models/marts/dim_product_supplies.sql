@@ -17,6 +17,7 @@ product_supplies_summary as (
 final as (
     select
         products.*,
+        --Testing changes for git commit
         product_supplies_summary.supply_cost
     from products
         left join product_supplies_summary 
