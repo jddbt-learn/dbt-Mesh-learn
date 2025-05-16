@@ -15,6 +15,7 @@ renamed as (
         store_id as location_id,
         customer as customer_id,
 
+        --Make it being changed from production
         ---------- numerics
         (order_total / 100.0) as order_total,
         (tax_paid / 100.0) as tax_paid,
