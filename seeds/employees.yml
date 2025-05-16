@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: employees
+    config:
+      grants:
+        select: ['pc_dbt_role','public']
