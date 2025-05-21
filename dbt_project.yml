@@ -20,6 +20,8 @@ clean-targets:
 vars:
   truncate_timespan_to: "{{ current_timestamp() }}"
 
+query-comment: "=====Customer comments: {{ query_comment(node) }}===="
+
 models:
   core_platform:
     staging:
