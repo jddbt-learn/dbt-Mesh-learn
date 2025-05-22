@@ -2,6 +2,12 @@ version: 2
 
 seeds:
   - name: employees
+    description: Manual map employee to customer
     config:
       grants:
         select: ['pc_dbt_role','public']
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+          - unique
