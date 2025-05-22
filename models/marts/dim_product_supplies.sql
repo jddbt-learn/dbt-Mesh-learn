@@ -1,3 +1,6 @@
+{{
+    config(required_tests=None)
+}}
 with products as (
     select * from {{ ref('stg_products') }}
 ),

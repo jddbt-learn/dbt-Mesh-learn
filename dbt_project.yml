@@ -26,5 +26,9 @@ models:
   core_platform:
     staging:
       +materialized: view
+      +required_tests: {"unique.*|not_null": 2}
     marts:
-      +materialized: table
+      +materialized: table      
+      +required_tests: {"unique.*|not_null": 1}
+      intermediate:
+        +required_tests: {"unique.*|not_null": 0}
